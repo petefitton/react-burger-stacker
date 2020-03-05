@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+li {
+  list-style-type: none
+}
+
+.burgerIngredient {
+  height: 20px;
+  width: 300px;
+  /* background-color: rgb(151, 148, 148); */
+  margin: 10px auto;
+}
+
+.fullApp {
+  display: flex;
+}
+
+.rightPanel {
+  align-self: flex-end;
+  border: 2px solid black;
+  height: 300px;
+  width: 400px;
+  border-radius: 15%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.leftPanel {
+  border: 2px solid black;
+  border-radius: 15%;
+  height: 300px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.burgerPanel {
+  display: flex;
+  height: 254px;
+  flex-direction: column-reverse;
+}
