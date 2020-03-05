@@ -26,7 +26,9 @@ function App() {
   const [chosenIngredients, setIngredients] = useState([]);
 
   const addIngredient = (index, ingredient) => {
-    setIngredients([...chosenIngredients, ingredient])
+    if (chosenIngredients.length < 6) {
+      setIngredients([...chosenIngredients, ingredient])
+    }
   }
 
   const clearBurgFun = () => {
